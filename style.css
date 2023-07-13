@@ -1,0 +1,53 @@
+h1,
+h4,
+p,
+#container {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    border-bottom: 1px solid #CCC;
+    font-size: 20px;
+    height: auto;
+    background-color: #F0F0F0;
+    letter-spacing: 0.05em;
+    padding: 8px;
+}
+
+li:hover {
+    background-color: #FFFFFF;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+.notes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F5F5F5;
+}
+
+.lines {
+    line-height: 20px;
+    margin: 0 auto;
+    width: auto;
+}
+
+button {
+    background-color: azure;
+    border-radius: 4px;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    padding: 4px 8px;
+}
+
+input {
+    background-color: azure;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 24px;
+    padding: 4px;
+}
